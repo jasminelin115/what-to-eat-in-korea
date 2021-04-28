@@ -1,0 +1,188 @@
+body {
+    background: #78B0D8;
+}
+
+#map {
+    position: absolute;
+    width: 1230px;
+    height: 725px;
+    left: 200px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.location2 {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 900px;
+    top: 350px;
+    background: url("/Users/jasminelin/Downloads/wdd\ final\ /assets/img/seomun.png") no-repeat;
+    background-size: 260px;
+    animation-name: upDown2; 
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+}
+
+@keyframes upDown2 {
+    0% {top: 0px;}
+    100% {top: 350px;}
+}
+
+#bigbubble {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 285px;
+    top: 105px;
+
+    animation-name: bigbubble1;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+}
+
+@keyframes bigbubble1 {
+    0% {top: 0px};
+    100% {top: 170px};
+}
+
+.title {
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    left: 490px;
+    top: 140px;
+
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 106px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FF0030;
+
+    animation-name: t1;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+}
+
+@keyframes t1 {
+    0% {top: 0px};
+    100% {top: 140px};
+}
+
+.title1 {
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 430px;
+    top: 205px;
+
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 40px;
+    display: flex;
+    align-items: right;
+    text-align: right;
+
+    color: #4F4F4F;
+
+    animation-name: t2;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+}
+
+@keyframes t2 {
+    0% {top: 0px};
+    100% {top: 205px};
+}
+
+.title2 {
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 750px;
+    top: 260px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 40px;
+    display: flex;
+    align-items: right;
+    text-align: right;
+
+    color: black;
+    
+    animation-name: t3;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+}
+
+@keyframes t3 {
+    0% {top: 0px};
+    100% {top: 260px};
+}
+
+.title3 {
+    position: absolute;
+    width: 450px;
+    height: 0px;
+    left: 515px;
+    top: 305px;
+
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 20px;
+    display: flex;
+    align-items: right;
+    text-align: right;
+
+    color: #4F4F4F;
+
+    animation-name: t4;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+}
+
+@keyframes t4 {
+    0% {top: 0px};
+    100% {top: 305};
+}
+
+#streetfood {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 140px;
+    top: 230px;
+
+    animation-name: streetfood1;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+}
+
+@keyframes streetfood1 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.arrow {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 30px;
+    top: 30px;
+    background: url("/Users/jasminelin/Downloads/wdd\ final\ /assets/img/arrow.png") no-repeat;
+    background-size: 70px;
+}

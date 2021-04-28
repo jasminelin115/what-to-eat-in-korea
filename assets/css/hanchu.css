@@ -1,0 +1,188 @@
+body {
+    background: #78B0D8;
+}
+
+#map {
+    position: absolute;
+    width: 1230px;
+    height: 725px;
+    left: 200px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.location1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 900px;
+    top: 100px;
+    background: url("/Users/jasminelin/Downloads/wdd\ final\ /assets/img/hanchu.png") no-repeat;
+    background-size: 200px;
+    animation-name: upDown1; 
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+}
+
+@keyframes upDown1 {
+    0% {top: 0px;}
+    100% {top: 100px;}
+}
+
+#bigbubble {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 120px;
+    top: 170px;
+
+    animation-name: bigbubble1;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+}
+
+@keyframes bigbubble1 {
+    0% {top: 0px};
+    100% {top: 170px};
+}
+
+.title {
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    left: 570px;
+    top: 220px;
+
+    font-family: 'Abhaya Libre', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 106px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FF0030;
+
+    animation-name: t1;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+}
+
+@keyframes t1 {
+    0% {top: 0px};
+    100% {top: 220px};
+}
+
+.title1 {
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 230px;
+    top: 280px;
+
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    display: flex;
+    align-items: right;
+    text-align: right;
+
+    color: #4F4F4F;
+
+    animation-name: t2;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+}
+
+@keyframes t2 {
+    0% {top: 0px};
+    100% {top: 280px};
+}
+
+.title2 {
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 360px;
+    top: 335px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    display: flex;
+    align-items: right;
+    text-align: right;
+
+    color: black;
+    
+    animation-name: t3;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+}
+
+@keyframes t3 {
+    0% {top: 0px};
+    100% {top: 335px};
+}
+
+.title3 {
+    position: absolute;
+    width: 410px;
+    height: 0px;
+    left: 395px;
+    top: 380px;
+
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    display: flex;
+    align-items: right;
+    text-align: right;
+
+    color: #4F4F4F;
+
+    animation-name: t4;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+}
+
+@keyframes t4 {
+    0% {top: 0px};
+    100% {top: 380};
+}
+
+#chicken {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 30px;
+    top: 330px;
+
+    animation-name: chicken1;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+}
+
+@keyframes chicken1 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.arrow {
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    left: 30px;
+    top: 30px;
+    background: url("/Users/jasminelin/Downloads/wdd\ final\ /assets/img/arrow.png") no-repeat;
+    background-size: 70px;
+}
