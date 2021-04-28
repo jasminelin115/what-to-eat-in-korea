@@ -17,7 +17,7 @@ body {
     height: 200px;
     left: 900px;
     top: 100px;
-    background: url("/Users/jasminelin/Downloads/wdd\ final\ /assets/img/hanchu.png") no-repeat;
+    background: url("/assets/img/hanchu.png") no-repeat;
     background-size: 200px;
     animation-name: upDown1; 
     animation-duration: 1s;
@@ -183,6 +183,6 @@ body {
     height: 370px;
     left: 30px;
     top: 30px;
-    background: url("/Users/jasminelin/Downloads/wdd\ final\ /assets/img/arrow.png") no-repeat;
+    background: url("/assets/img/arrow.png") no-repeat;
     background-size: 70px;
 }
