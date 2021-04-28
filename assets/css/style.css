@@ -124,7 +124,7 @@ body {
     height: 200px;
     left: 1180px;
     top: 480px;
-    background: url("/Users/jasminelin/Downloads/wdd\ final\ /assets/img/sulbing.png") no-repeat;
+    background: url("/assets/img/sulbing.png") no-repeat;
     background-size: 200px;
     animation-name: upDown; 
     animation-duration: 1s;
@@ -137,7 +137,7 @@ body {
 }
 
 .location:hover {
-    background: url("/Users/jasminelin/Downloads/wdd\ final\ /assets/img/sulbinghover.png") no-repeat;
+    background: url("/assets/img/sulbinghover.png") no-repeat;
     background-size: 200px;
 }
 
@@ -147,7 +147,7 @@ body {
     height: 200px;
     left: 900px;
     top: 100px;
-    background: url("/Users/jasminelin/Downloads/wdd\ final\ /assets/img/hanchu.png") no-repeat;
+    background: url("/assets/img/hanchu.png") no-repeat;
     background-size: 200px;
     animation-name: upDown1; 
     animation-duration: 1s;
@@ -160,7 +160,7 @@ body {
 }
 
 .location1:hover {
-    background: url("/Users/jasminelin/Downloads/wdd\ final\ /assets/img/hanchuhover.png") no-repeat;
+    background: url("/assets/img/hanchuhover.png") no-repeat;
     background-size: 200px;
 }
 
@@ -170,7 +170,7 @@ body {
     height: 200px;
     left: 900px;
     top: 350px;
-    background: url("/Users/jasminelin/Downloads/wdd\ final\ /assets/img/seomun.png") no-repeat;
+    background: url("/assets/img/seomun.png") no-repeat;
     background-size: 260px;
     animation-name: upDown2; 
     animation-duration: 1s;
@@ -183,7 +183,7 @@ body {
 }
 
 .location2:hover {
-    background: url("/Users/jasminelin/Downloads/wdd\ final\ /assets/img/seomunhover.png") no-repeat;
+    background: url("/assets/img/seomunhover.png") no-repeat;
     background-size: 260px;
 }
 
